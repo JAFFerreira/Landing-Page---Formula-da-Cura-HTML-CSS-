@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+/* MENU*/
+header{
+    background: rgb(5, 241, 5);
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+/*HOME*/
+
+.home{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+
+}
+
+.bg{
+    height: 600px;
+    width: 700px;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 60px;
+    
+ 
+    
+}
+
+p{
+    font-size: 20px;
+    width: 90%;
+    margin-bottom: 60px;
+   
+    
+}
+
+button{
+    border: none;
+    width: 120px;
+    padding: 20px;
+    border-radius: 16px;
+    font-size: 20px;
+}
+
+.atendimento{
+    background-color: rgb(10, 241, 10);
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.cadastro{
+    background-color:  rgb(10, 241, 10);
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+
+}
+
+button{
+    border: none;
+    width: 200px;
+    padding: 30px;
+    border-radius: 24px;
+    margin-right: 60px;
+  }
+
+
+button:hover{
+    background-color: rgb(207, 84, 84);
+    color: aqua;
+}
+
+footer{
+    display: flex;
+    color: rgb(23, 23, 27);
+    justify-content: center;
+}
